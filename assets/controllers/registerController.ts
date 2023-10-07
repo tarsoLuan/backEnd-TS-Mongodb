@@ -61,31 +61,28 @@ const addStudent = async(req,res) => {
         if (created) {
             res.json(student);
 
-            const atendente = await User.findOne({where: {username: 'atendente'}})
+            const [friend, created] = await Friend.findOrCreate({
+                where: {
+                    UserId: student.id!,
+                    FriendId: 4 ,
+                },
+                defaults: {
+                    UserId: student.id!,
+                    FriendId: 4,
+                },
+            });
 
-            if (atendente) {
-                const [friend, created] = await Friend.findOrCreate({
-                    where: {
-                        UserId: student.id!,
-                        FriendId: atendente.id! ,
-                    },
-                    defaults: {
-                        UserId: student.id!,
-                        FriendId: atendente.id!,
-                    },
-                });
+            const [friend2, created2] = await Friend.findOrCreate({
+                where: {
+                    UserId: 4,
+                    FriendId: student.id ,
+                },
+                defaults: {
+                    UserId: 4,
+                    FriendId: student.id!,
+                },
+            });
 
-                const [friend2, created2] = await Friend.findOrCreate({
-                    where: {
-                        UserId: atendente.id!,
-                        FriendId: student.id! ,
-                    },
-                    defaults: {
-                        UserId: atendente.id!,
-                        FriendId: student.id!,
-                    },
-                });
-            }
         }
         else if(student) {
             if(student.isActive == false) {
