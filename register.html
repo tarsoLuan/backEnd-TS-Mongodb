@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/register.css">
+  </head>
+  <body>
+    <div class="register-page">
+        <div class="page-header">
+            <div class="logo">
+                <img src="/images/logo.png" alt="logo">
+            </div>
+            <div class="nav">
+                <a id="back" style="text-decoration:none; color:black; font-size: 25px;">Voltar</a>
+            </div>
+        </div>
+        <div class="page-body">
+            <div class="row">
+                <div class="column-left">
+                    <div class="image-column">
+                        <img src="/images/students2.png" alt="Estudantes" class="img">
+                    </div>
+                </div>
+                <div class="column-right">
+                    <div class="column-header">
+                        <img src="/images/register.png" alt="Cadastre-se" class="img">
+                    </div>
+                    <div class="form">
+                        <form id="formData">
+                            <label for="name">Nome completo</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome completo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu melhor e-mail">
+                            <label for="phone">Celular</label>
+                            <input type="phone" id="phone" name="phone" placeholder="XX XXXXX-XXXX">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="password" placeholder="Digite uma senha">
+                            <label for="confirm">Confirme sua senha</label>
+                            <input type="password" id="confirm" name="confirm" placeholder="Repita a senha">
+                            <br><br>
+                            <div class="button">
+                                <button id="register" type="submit"> Confirmar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="/controllers/register.js" type="module"></script>
+</html>

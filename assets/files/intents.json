@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "tag": "Cumprimento",
+            "responses": [
+            "Olá :-)",
+            "Olá, obrigado pela visita",
+            "Oi, o que eu posso fazer para ajudar?",
+            "Olá, como posso ajudar?",
+            "Olá! Bem-vindo(a) à Refriartec! Como posso ajudá-lo(a) hoje? Você está procurando informações sobre nossos produtos ou serviços?",
+            "Olá! Bem-vindo ao chatbot da Refriartec. Como posso ajudar você hoje? Estou disponível para responder perguntas sobre nossos produtos, serviços, instalação e orçamentos."
+            ]
+        },
+        {
+            "tag": "Despedida",
+            "responses": [
+            "Até mais, obrigado pela visita",
+            "Tenha um ótimo dia",
+            "Tchau! Volte logo."
+            ]
+        },
+        {
+            "tag": "Agradecimento",
+            "responses": ["Fico feliz em ajudar!", "Foi um prazer!", "Por nada"]
+        },
+        {
+            "tag": "Nivel",
+            "responses": [ 
+            " Nossa escola oferece as seguintes categorias de cursos: profissionalizantes, formação inicial, atualização e complementares na área da tecnologia. Entre em contato para saber quais cursos estão disponíveis.",
+        "Oferecemos cursos profissionalizantes, formação inicial, atualização e complementares na área da tecnologia. Entre em contato para saber quais cursos estão disponíveis.",
+        "Aqui na nossa escola voce ir encontrar as seguintes modalidades de cursos:profissionalizantes, formação inicial, atualização e complementares na área da tecnologia. Entre em contato para saber quais cursos estão disponíveis."
+        ]
+        },
+        {
+            "tag": "Preços",
+            "responses": [
+            "Cada modalidade de curso tem um valor específico, agende uma conversa para entender melhor nossos preços.Caso já seja matriculado, entre em contato para falar sobre sua mensalidade",
+            "Os nossos preços variam dependendo da modalidade que você escolher, sugerimos uma conversa melhor com um dos nossos atendentes para entender qual curso você deseja. Caso já seja matriculado, entre em contato para falar sobre sua mensalidade"
+            ]
+        },
+        {
+            "tag": "Endereço",
+            "responses": [
+            "Estamos na Avenida Paulista, 1345 - São Paulo",
+            "Nosso endereço é Avenida Paulista, 1345 - São Paul",
+            " Você pode visitar nossa unidade matriz no seguinte endereço: Avenida Paulista, 1345 - São Paul."
+            ]
+        },
+        {
+            "tag": "Notas",
+            "responses": [
+            "Acesse a aba 'notas' no portal do aluno para saber como estão suas notas",
+            "Você pode conferir suas notas clicando na aba 'notas' que está no portal do aluno ",
+            "Confira suas notas clicando na aba 'notas' no portal do aluno"
+            ]
+        },
+        {
+            "tag": "Calendario",
+            "responses": [
+            "Confira o calendário escolar no portal do aluno, você também pode solicitar o calendário escolar via e-mail",
+            "O calendário escolar está disponível no portal do aluno ou via solicitação por e-mail."
+            ]
+        },
+        {
+            "tag": "Telefone",
+            "responses": [
+            "Olá! Obrigado por perguntar. Para entrar em contato conosco, você pode ligar para o número (11) 3000-3000.",
+            "Nosso número é (11) 3000-3000. "
+            ]
+        },
+        {
+            "tag": "Email",
+            "responses": [
+            "Para entrar em contato com a Escola 1 por e-mail, você pode enviar uma mensagem para o endereço de e-mail contato@escola1.com.br. Eles terão prazer em ajudá-lo com quaisquer perguntas ou solicitações que você possa ter.",
+            "Entre em contato através do e-mail pelo endereço contato@escola1.com.br "
+            ]
+        },
+        {
+            "tag": "Horarios",
+            "responses": [
+            "Nossos cursos estão disponíveis na modalidade semi presencial e a distância. Na modalidade semi presencial, as aulas acontecem das 8h da manhã até 12h às quartas. As aulas a distâncias são feitas no horário em que o aluno preferir :)"
+            ]
+        },
+        {
+            "tag": "Midias",
+            "responses": [
+            "Você pode acompanhar e tirar suas dúvidas da Escola 1 nas redes sociais Instagram, Twitter e Facebook! Todos com o @escola1"
+            ]
+        }
+        ,
+        {
+            "tag": "Cursos",
+            "responses": [
+            "Oferecemos cursos na área da tecnologia como Front End, Back End, Ux Design, Python entre outros. Entre em contato para saber quais cursos estão disponíveis.",
+            " Nossos cursos englobam as mais diversas áreas da tecnologia, como por exemplo Python, Ux Design, Front End entre outros. Entre em contato para saber quais cursos estão disponíveis."
+        ]
+        },
+        {
+        "tag": "Atendente",
+            "responses": [
+            "Um atendente entrará em contato."]
+        }
+    ]
+}

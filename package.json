@@ -1,0 +1,31 @@
+{
+  "name": "projeto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
+  },
+  "author": "Luan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jquery": "^3.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.33.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "tedious": "^16.1.0",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.16"
+  }
+}
